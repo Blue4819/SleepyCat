@@ -13,7 +13,6 @@
     "geolocation",
     "alarms",
     "notifications",
-    "loginState",
     "system.display"
     ]
 }
