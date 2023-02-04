@@ -1,0 +1,11 @@
+{
+  "name":
+  "version":
+  "description":
+  "manifest_version": 3,
+  "author": 
+  "action":{
+      "default_popup":
+      "default_title":
+  }
+}
