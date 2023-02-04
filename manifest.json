@@ -1,5 +1,5 @@
 {
-  "name": "SleepCat"
+  "name": "SleepCat",
   "version": "1.0",
   "description": "Sleep reminders",
   "manifest_version": 3,
@@ -13,7 +13,6 @@
     "geolocation",
     "alarms",
     "notifications",
-    "loginState",
     "system.display"
     ]
 }
