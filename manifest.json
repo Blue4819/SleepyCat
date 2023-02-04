@@ -1,11 +1,19 @@
 {
-  "name":
-  "version":
-  "description":
+  "name": "SleepCat"
+  "version": "1.0",
+  "description": "Sleep reminders",
   "manifest_version": 3,
-  "author": 
+  "author": "Summer Wang, Rishika Thandra, Prachi Bharti",
   "action":{
-      "default_popup":
-      "default_title":
-  }
+      "default_popup": "icon.png",
+      "default_title": "popup.html"
+  },
+  "permissions":[
+    "unlimitedStorage",
+    "geolocation",
+    "alarms",
+    "notifications",
+    "loginState",
+    "system.display"
+    ]
 }
