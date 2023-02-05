@@ -3,6 +3,12 @@
     padding: 1;
 }
 
+.settings{
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+}
+
 body{
     background-color: #FFBBEA;
 }
@@ -19,6 +25,21 @@ body{
     max-width: 90%;
 }
 
+button {
+   height: 30px;
+   width: 70px;
+   background: none; /* This removes the default background */
+   color: #9F8FFF;
+   border: 1px solid #5211BA;
+   border-radius: 50px; /* This gives our button rounded edges */
+   font-size: 12px;
+   cursor: pointer;
+}
+
+form {
+   padding-top: 20px;
+}
+
 .rowField{
     display: flex;
     justify-content: space-between;
@@ -28,16 +49,16 @@ body{
 .medium,
 .large{
     margin: 0.2rem;
-    background-color: ##9F8FFF;
+    background-color: #9F8FFF;
     border: none ;
     border-radius: 2em;
-    color:  ##5211BA
+    color:  #5211BA
 }
 
 .small:hover,
 .medium:hover,
 .large:hover{
-    background-color: ##FFBBEA
+    background-color: #FFBBEA
 }
 
 .small{
