@@ -1,0 +1,53 @@
+* {
+    margin: 1;
+    padding: 1;
+}
+
+body{
+    background-color: #FFBBEA;
+}
+
+#textField{
+    border: none ;
+    border-radius: 2rem;
+    padding: 0.25em;
+    color:  #2b3252
+}
+
+.inputButton{
+    margin : 0.5rem;
+    max-width: 90%;
+}
+
+.rowField{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small,
+.medium,
+.large{
+    margin: 0.2rem;
+    background-color: ##9F8FFF;
+    border: none ;
+    border-radius: 2em;
+    color:  ##5211BA
+}
+
+.small:hover,
+.medium:hover,
+.large:hover{
+    background-color: ##FFBBEA
+}
+
+.small{
+    width : 30%
+}
+
+.medium{
+    width : 100%
+}
+
+.large{
+    width:100%
+}
