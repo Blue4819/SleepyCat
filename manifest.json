@@ -5,8 +5,8 @@
   "manifest_version": 3,
   "author": "Summer Wang, Rishika Thandra, Prachi Bharti",
   "action":{
-      "default_popup": "Cat.png",
-      "default_title": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": "Cat.png"
   },
   "permissions":[
     "unlimitedStorage",
